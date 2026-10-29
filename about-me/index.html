@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .profile-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .location {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 15px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+
+        .email {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .portfolio-link {
+            display: block;
+            text-decoration: none;
+            color: #2c3e50;
+        }
+
+        .skills-list {
+            margin-top: 20px;
+            padding-left: 20px;
+            list-style: none;
+        }
+
+        .skill-item {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .skill-item h3 {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .skill-item p {
+            font-size: 0.9rem;
+        }
+
+        .verified-metrics {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+        }
+
+        .metrics-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .metrics-table th,
+        .metrics-table td {
+            text-align: left;
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .metrics-table tr:hover {
+            background-color: #f9fafb;
+        }
+
+        .verified-metrics h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p class="subtitle">Prashanth Kumar Kadasi | Hyderabad, India</p>
+
+        <div class="profile-info">
+            <div class="name">Prashanth Kumar Kadasi</div>
+            <div class="location">Hyderabad, Telangana, India</div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>Contact</h3>
+                    <p>Email: kprsnt@zohomail.in</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Portfolio</h3>
+                    <a href="https://kprsnt.in" target="_blank">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>Professional Background</h2>
+        <p>Data Analyst with 3.5+ years of experience in data/analytics and AI, including production work at Black Piano and Pi Software Solutions. Currently transitioning into AI engineering as a Data Analyst.</p>
+
+        <div class="skills-list">
+            <ul>
+                <li><strong>Data Analysis & Reporting</strong> — End-to-end pipelines for client dashboards, industry reports (Black Friday, Christmas, sales), and ad-hoc dashboards. Built self-healing data-quality agents powered by Gemini.</li>
+                <li><strong>AI/Agent Experience</strong> — ~2 years of self-directed + production work on AI systems, including automated insights pipelines and market intelligence generation.</li>
+                <li><strong>ETL Pipelines</strong> — Architected 18 automated ETL pipelines feeding BigQuery → Looker Studio across 18 industry sectors.</li>
+            </ul>
+        </div>
+
+        <h2>Employment History</h2>
+        <p>Black Piano — Data Analyst | Remote (Mar 2026 – Present)</p>
+        <p>Pi Software Solutions (Datametrics) — Data Analyst | Remote (Mar 2023 – Feb 2026)</p>
+        <p>Optum (UnitedHealth Group) — Enrollment Quality & Audit Representative (CMS Auditor) | Hyderabad, India (Apr 2014 – Mar 2023)</p>
+
+        <div class="verified-metrics">
+            <h3>Verified Metrics</h3>
+            <table>
+                <tr><th>Metric</th><th>Value</th><th>Source</th></tr>
+                <tr><td>AI Eco swarm agents</td><td>10</td><td>kprsnt.in/ecosystem</td></tr>
+                <tr><td>AI Eco MCP tools</td><td>15+ tools, 5 resources</td><td>kprsnt.in/ecosystem</td></tr>
+                <tr><td>AI Eco fitness score</td><td>83.4%</td><td>kprsnt.in/ecosystem</td></tr>
+                <tr><td>Living memory bound</td><td>&lt;4,000 words</td><td>kprsnt.in/ecosystem</td></tr>
+            </table>
+        </div>
+
+        <h2>Education</h2>
+        <p>Anurag Group of Institutions (JNTUH) — M. Pharmacy (Pharmaceutical Analysis & Quality Assurance) | May 2012</p>
+
+        <hr>
+        <h2>Skills</h2>
+        <p>Python, Node.js, TypeScript, SQL, JavaScript, HTML</p>
+
+        <div class="footer">
+            <p>© 2026 Prashanth Kumar Kadasi | Verified Metrics as of 2026-10-11</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "kprsnt",
+  "description": "About Me - Prashanth Kumar Kadasi",
+  "version": "1.0.0",
+  "private": true,
+  "hosting": {
+    "vercel": {
+      "project_name": "kprsnt",
+      "domain": "kprsnt.in"
+    }
+  },
+  "api_key": null
+}
